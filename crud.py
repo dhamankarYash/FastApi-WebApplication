@@ -3,6 +3,8 @@ from sqlalchemy import func, and_, or_
 from typing import List, Tuple, Optional
 from datetime import datetime
 
+
+
 from models import User, Event, EventRegistration
 from schemas import UserCreate, EventCreate, EventUpdate
 from auth import get_password_hash
