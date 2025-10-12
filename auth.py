@@ -15,6 +15,9 @@ from crud import get_user_by_email
 # Load environment variables
 load_dotenv()
 
+
+
+
 # Security configuration
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
