@@ -7,6 +7,10 @@ import uvicorn
 import os
 from dotenv import load_dotenv
 
+
+
+
+
 # Import your modules
 from database import get_db, engine, Base, test_connection
 from models import User, Event, EventRegistration
